@@ -26,7 +26,7 @@ class GUI{
     }
 
     private void InitPages(){
-        new HomePage(m_Frame, m_StudentInfo);
+        HomePage homepage = new HomePage(m_Frame, m_StudentInfo);
     }
 
 }

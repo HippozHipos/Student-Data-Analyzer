@@ -1,4 +1,6 @@
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 public class Student {
     public String course;
@@ -7,4 +9,6 @@ public class Student {
         m_ModuleResult.put(module, marks);
     }
     void Get(String module){ m_ModuleResult.get(module); }
+    Set<Map.Entry<String, Integer>> EntrySet(){ return m_ModuleResult.entrySet(); }
+
 }
